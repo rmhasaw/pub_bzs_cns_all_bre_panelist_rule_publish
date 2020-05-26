@@ -1188,7 +1188,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 	private java.lang.String panelist_panelist_attr_67;
 	private java.lang.String panelist_panelist_attr_68;
 	private java.lang.String panelist_panelist_attr_69;
-	private java.lang.String panelist_panelist_attr_70;
+	private java.lang.String panelist_panelist_attr_70 = "1235008056";
 	private java.lang.String panelist_panelist_attr_71;
 	private java.lang.String panelist_panelist_attr_72;
 	private java.lang.String panelist_panelist_attr_73;
