@@ -74,7 +74,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>200</width>
-      <header>panelist_factor_values_2</header>
+      <header>Factors - PES Factor : panelist_factor_values_2</header>
       <boundName>panelist</boundName>
       <factField>panelist_factor_values_2</factField>
       <type>java.lang.Integer</type>
