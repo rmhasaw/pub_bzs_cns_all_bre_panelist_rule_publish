@@ -12,7 +12,7 @@
   <attributeCols>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString/>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -24,13 +24,13 @@
     </attribute-column52>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString/>
+        <valueNumeric class="int">0</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-        <valueNumeric class="int">0</valueNumeric>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>130</width>
       <attribute>salience</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
@@ -44,43 +44,70 @@
       <conditions>
         <condition-column52>
           <typedDefaultValue>
-            <valueString/>
-            <dataType>String</dataType>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>200</width>
-          <header>panelist_panelist_attr_11 equals</header>
+          <width>361</width>
+          <header>City : panelist_panelist_attr_11 equals</header>
           <constraintValueType>1</constraintValueType>
           <factField>panelist_panelist_attr_11</factField>
-          <fieldType>java.lang.String</fieldType>
+          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
-          <binding/>
+          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
         <parameters/>
       </window>
-      <entryPointName/>
+      <entryPointName></entryPointName>
     </Pattern52>
   </conditionPatterns>
   <actionCols>
     <set-field-col52>
       <typedDefaultValue>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>200</width>
-      <header>panelist_panelist_attr_23</header>
+      <width>346</width>
+      <header>Locality : panelist_panelist_attr_23</header>
       <boundName>panelist</boundName>
       <factField>panelist_panelist_attr_23</factField>
       <type>java.lang.Integer</type>
       <update>false</update>
     </set-field-col52>
   </actionCols>
+  <auditLog>
+    <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
+      <acceptedTypes>
+        <entry>
+          <string>INSERT_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>INSERT_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>UPDATE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+      </acceptedTypes>
+    </filter>
+    <entries/>
+  </auditLog>
   <imports>
     <imports/>
   </imports>
@@ -91,7 +118,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -107,7 +134,7 @@
       </value>
       <value>
         <valueNumeric class="int">1</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -117,7 +144,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235003472"</valueString>
+        <valueString>&quot;1235003472&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
