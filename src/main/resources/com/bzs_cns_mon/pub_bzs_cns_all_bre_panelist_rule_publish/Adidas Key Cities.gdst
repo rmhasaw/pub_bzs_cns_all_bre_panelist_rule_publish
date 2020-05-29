@@ -90,7 +90,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>200</width>
-      <header>panelist_panelist_attr_70</header>
+      <header>Adidas Key Cities: panelist_panelist_attr_70</header>
       <boundName>panelist</boundName>
       <factField>panelist_panelist_attr_70</factField>
       <type>java.lang.Integer</type>
