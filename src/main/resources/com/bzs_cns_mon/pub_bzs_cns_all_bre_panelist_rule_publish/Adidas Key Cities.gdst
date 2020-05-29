@@ -58,22 +58,6 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>200</width>
-          <header>panelist_state in</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>panelist_state</factField>
-          <fieldType>String</fieldType>
-          <operator>in</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
       </conditions>
       <window>
         <parameters/>
@@ -155,11 +139,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>1235003340</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -195,11 +174,6 @@
       </value>
       <value>
         <valueString>(1235003343, 1235003624)</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
