@@ -73,8 +73,8 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>200</width>
-      <header>panelist_panelist_attr_38</header>
+      <width>270</width>
+      <header>Pgendersb : panelist_panelist_attr_38</header>
       <boundName>panelist</boundName>
       <factField>panelist_panelist_attr_38</factField>
       <type>java.lang.Integer</type>
